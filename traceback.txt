@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 763, in script
+    inforamn "Untungnya Pak Dito adalah seorang pelupa, saya yakin dia menyimpan kuncinya di dalam kantor nya, tapi berhati-hatilah, jika anda salah memasukkan kunci brankasnya dua kali maka akan ada alarm yang berbunyi dan mengunci ruangan itu."
+Exception: Sayer 'inforamn' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 763, in script
+    inforamn "Untungnya Pak Dito adalah seorang pelupa, saya yakin dia menyimpan kuncinya di dalam kantor nya, tapi berhati-hatilah, jika anda salah memasukkan kunci brankasnya dua kali maka akan ada alarm yang berbunyi dan mengunci ruangan itu."
+  File "C:\Users\herma\Downloads\renpy-8.1.3-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\herma\Downloads\renpy-8.1.3-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'inforamn' is not defined.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.3.23091805
+CatchThatCorruptor 1.0
+Fri Dec  1 04:05:50 2023
