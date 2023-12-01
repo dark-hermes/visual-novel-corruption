@@ -160,7 +160,7 @@ label scenario1:
     hide aditya
 
     show ahmad happy
-    ahmad "“Sebenarnya saya tidak boleh memberikan informasi ini, tapi akan saya bantu anda untuk mengusut kasus ini. Rumah beliau ada di Jalan Matahari No 43."
+    ahmad "Sebenarnya saya tidak boleh memberikan informasi ini, tapi akan saya bantu anda untuk mengusut kasus ini. Rumah beliau ada di Jalan Matahari No 43."
     hide ahmad
 
     show aditya happy
